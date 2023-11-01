@@ -24,7 +24,7 @@ const Header = ({setCoordinates}) => {
             <div className="flex bg-white justify-between items-center w-full p-3 md:p-4 rounded-sm shadow-md">
                 {/* Logo displays only when  */}
                 { !search && ( 
-                    <img src={logo} alt="TravelAdvisor" className="h-6 sm:h-7 md:h-8" />
+                    <img src={logo} alt="Tourism Compass" className="h-6 sm:h-7 md:h-8" />
                 ) }
                 {/* --- */}
 

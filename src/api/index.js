@@ -1,3 +1,4 @@
+
 import axios from "axios";
 
 // Get places by bounds receives the 'type', 'sw' object, 'ne'object and 'source' for effect cancellation as parameter for endpoint call
@@ -40,7 +41,7 @@ export const getPlacesByLatLng = async (type, lat, lng, params, source) => {
       },
       headers: {
         'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com',
-        'X-RapidAPI-Key': import.meta.env.VITE_TRAVEL_API_KEY
+        'X-RapidAPI-Key': 'a6a106e853msh9d958906afbe7b4p1f3400jsnf190d8d9a668'
       }
     }, { cancelToken: source.token });
 

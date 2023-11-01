@@ -13,9 +13,9 @@ const App = () => {
         <Route path={"/map"}>
           <MapView />
         </Route>
-        <Route exact path={"/restaurants"}>
-          <RestaurantsList />
-        </Route>
+        <Route exact path={"/restaurants"}> 
+           <RestaurantsList />
+        </Route> 
         <Route exact path={"/hotels"}>
           <HotelsList />
         </Route>
